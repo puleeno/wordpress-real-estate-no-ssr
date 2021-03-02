@@ -1,0 +1,23 @@
+{
+    "name": "puleeno/wordpress-real-estate-no-ssr",
+    "license": "GPL-2.0-only",
+    "description": "Build a WordPress real estate site with the latest technologies. WP GraphQL, GatsbyJS, and ReactJS",
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "ramphor/framework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    }
+}
