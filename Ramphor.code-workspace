@@ -1,0 +1,12 @@
+{
+    "folders":[
+        {
+            "name": "Framework",
+            "path": "./vendor/ramphor/framework"
+        },
+        {
+            "name": "Application",
+            "path": "."
+        }
+    ]
+}
